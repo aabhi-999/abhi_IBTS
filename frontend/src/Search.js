@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-function IBTSSearch() {
+function IBTSSearch() { 
   // ==================== STATE ====================
   const [buses, setBuses] = useState([]);
   const [filteredBuses, setFilteredBuses] = useState([]);
@@ -24,10 +24,10 @@ function IBTSSearch() {
 
   // ==================== MOCK DATA ====================
   const popularRoutes = [
-    { source: "Lucknow", destination: "Kanpur", icon: "🚌" },
-    { source: "Varanasi", destination: "Prayagraj", icon: "⏱️" },
-    { source: "Gorakhpur", destination: "Lucknow", icon: "🛣️" },
-    { source: "Agra", destination: "Lucknow", icon: "🌆" },
+    { source: "Lucknow", destination: "Kanpur", icon: "🚍" },
+    { source: "Varanasi", destination: "Prayagraj", icon: "🚍" },
+    { source: "Gorakhpur", destination: "Lucknow", icon: "🚍" },
+    { source: "Agra", destination: "Lucknow", icon: "🚍" },
   ];
 
   const busTypes = ["AC", "Non-AC", "Volvo", "Sleeper"];
