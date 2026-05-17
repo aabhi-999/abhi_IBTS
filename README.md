@@ -8,7 +8,7 @@ The system follows a modular architecture (MVC pattern) with a Node.js backend a
 
  ```---> Features --->```
 
-1. Bus Search --->  Users can search buses using source and destination cities.
+1. Bus Search --->  Users can search buses using source and destination cities. 
 
 2. Live Bus Tracking (Core Feature) ---> Track buses in real-time using location-based services.
 
