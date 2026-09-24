@@ -4,7 +4,7 @@ const busSchema = new mongoose.Schema({
 
   busNumber: String,
   name: String,
-  type: String,
+  type: String, 
   depot: String,
 
   route: {
@@ -21,8 +21,8 @@ const busSchema = new mongoose.Schema({
     {
       type: String,
       enum: [
-        "Sunday","Monday","Tuesday",
-        "Wednesday","Thursday","Friday","Saturday"
+        "Monday","Tuesday",
+        "Wednesday","Thursday","Friday","Saturday","Sunday"
       ]
     }
   ]
