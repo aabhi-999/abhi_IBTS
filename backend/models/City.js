@@ -4,7 +4,7 @@ const citySchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
-    unique: true
+    unique: true 
   },
   state: {
     type: String,
