@@ -4,7 +4,7 @@ import Bus from "../models/Bus.js";
 export const getAllBuses = async (req, res) => {
   try {
     const buses = await Bus.find();
-    res.json(buses);
+    res.json(buses); 
   } catch (error) {
     res.status(500).json({ message: "Server error" });
   }
